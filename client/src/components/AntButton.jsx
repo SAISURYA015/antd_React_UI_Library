@@ -20,6 +20,7 @@ function AntButton() {
       block
       loading={loading}
       icon={<PoweroffOutlined />}
+      style={{backgroundColor: 'red', color: 'black'}}
       onClick={onButtonClick}
       >My First Button</Button>
     </div>
