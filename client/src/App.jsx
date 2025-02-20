@@ -1,12 +1,15 @@
 import './App.css'
-import Button from './components/AntButton'
+import AntButton from './components/AntButton'
+import AntInput from './components/AntInput'
 
 function App() {
 
   return (
     <>
       <div>
-        <Button />
+        {/* <AntButton /> */}
+        <AntInput />
+        
       </div>
     </>
   )
